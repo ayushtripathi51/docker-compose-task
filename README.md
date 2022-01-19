@@ -1,0 +1,2 @@
+# docker-compose-task
+The ask is a github repo where one can run docker-compose up and the following services come up: There needs to be 2 containers:  A mongodb container to be taken directly from docker-hub A custom built container based on python2/3  Install pymongo A script which connects to the mongo container, and every 10 seconds writes the present timestamp in a collection.  The mongo container should start before the python container does  Ensure both the containers are running in a network called `testnet` 
