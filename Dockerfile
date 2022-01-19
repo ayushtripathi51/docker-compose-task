@@ -5,4 +5,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-CMD [ "python", "./persist-timestamp.py" ]
+CMD [ "python", "persist-timestamp.py" ]
